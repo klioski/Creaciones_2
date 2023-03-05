@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Creaciones Me and You</title>
+	<link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/Somos.css">
+ <!--<link rel="stylesheet" href="css/Contenedor.css">-->
+</head>
+<body>
+	<header>
+		<a href="Index.html" class="logo"><img src="Img/logo.png" alt="Creaciones me and you"></a>
+		<nav>
+			<div class="menu-icon">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<ul class="menu">
+				<li><a href="Index.html">Inicio</a></li>
+				<li><a href="Somos.html">Quienes somos</a></li>
+				<li><a href="Productos.html">Productos</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="quienes-somos">
+      <h2>¿Quiénes somos?</h2><br>
+      <div style="text-align: justify;">
+        <p><big><strong>Creacion Me and You</strong></big> es una empresa dedicada a la repostería de alta calidad, especializada en la elaboración de pasteles, galletas, cupcakes, pays, mesas de dulces y más, todo personalizado para cada persona que confía en nosotros. Nuestro objetivo principal es ofrecer productos únicos y deliciosos que superen las expectativas de quienes nos eligen.</p>
+        <p>Nos esforzamos por brindar un servicio excepcional, con la más alta calidad de ingredientes y una atención especial a la limpieza y la higiene en cada paso del proceso de elaboración. Además, nos aseguramos de que nuestras entregas sean puntuales y eficientes, para que nuestros clientes reciban sus productos frescos y en perfectas condiciones.</p>
+        <p>Cada producto que creamos es único y se adapta a las necesidades y deseos de cada persona, para que puedan disfrutar de un producto verdaderamente personalizado. Nuestros productos son ideales para todo tipo de eventos, desde bodas y cumpleaños hasta reuniones corporativas y otros eventos especiales. Ofrecemos un servicio completo de entrega, lo que significa que podemos llevar nuestros productos directamente a la puerta del hogar o evento de cada persona que confía en nosotros.</p>
+        <p>En resumen, en Creaciones Me and You nos apasiona la repostería y nos enorgullece ofrecer productos de alta calidad y personalizados para cada persona que nos elige. Siempre nos esforzamos por brindar un servicio excepcional y una experiencia satisfactoria para todos nuestros clientes.</p>
+      </div>
+    </section>
+	</main>
+  <button class="scroll-to-top" title="Subir al inicio">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M12 0c-6.617 0-12 5.383-12 12s5.383 12 12 12 12-5.383 12-12-5.383-12-12-12zm7.07 15.657l-1.414 1.414-5.657-5.657-5.657 5.657-1.414-1.414 5.657-5.657-5.657-5.657 1.414-1.414 5.657 5.657 5.657-5.657 1.414 1.414-5.657 5.657z"/>
+    </svg>
+  </button>
+	<footer>
+		<p>© 2023 Creaciones Me and You</p>
+	</footer>
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			const menuIcon = document.querySelector('.menu-icon');
+			const menu = document.querySelector('.menu');
+
+			menuIcon.addEventListener('click', function() {
+				this.classList.toggle('active');
+				menu.classList.toggle('active');
+			});
+		});
+	</script>
+	<script src="carrusel.js"></script>
+</body>
+</html>
