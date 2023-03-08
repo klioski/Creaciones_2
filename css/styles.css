@@ -32,9 +32,21 @@ header {
  /* width: 200px;
   /*height: auto;*/
   /*height: 50px;*/
-  display: inline-block;
+  /*display: inline-block;*/
   width: 200px;
 }
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+.logo {
+  width: 150px; /* ajustamos el tamaño de la imagen del logo /
+  height: auto;
+  float: left; / añadimos esta propiedad para mover el logo a la izquierda /
+  margin-right: 20px; / añadimos un margen para separar el logo del menú */
+  }
 
 nav {
   display: flex;
@@ -273,10 +285,7 @@ footer {
   color: #fff;
 }
 
-.logo {
-  width: 200px;
-  height: auto;
-}
+
 
 /* Estilos generales */
 
@@ -299,12 +308,7 @@ padding: 20px;
 display: flex; /* añadimos esta propiedad para que el logo y el menú se alineen horizontalmente */
 }
 
-.logo {
-width: 150px; /* ajustamos el tamaño de la imagen del logo /
-height: auto;
-float: left; / añadimos esta propiedad para mover el logo a la izquierda /
-margin-right: 20px; / añadimos un margen para separar el logo del menú */
-}
+
 
 nav ul {
 list-style: none;
